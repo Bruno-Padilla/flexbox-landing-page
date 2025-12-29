@@ -140,3 +140,56 @@ body {
     color: black;
     text-align: end;
 }
+
+/* = = = Section 4 = = = */
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .inner-box {
+    width: 70%;
+    margin: 100px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.section-4 .inner-box .left-side {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .inner-box .left-side .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.section-4 .inner-box .left-side .content .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-4 .inner-box .right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .inner-box .right-side button {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 30px;
+    margin: 10px 0;
+}
