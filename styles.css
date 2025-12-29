@@ -113,3 +113,30 @@ body {
     border: 4px solid #3882F6;
     border-radius: 15px;
 }
+
+/* = = = Section 3 = = = */
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.section-3 .quote {
+    width: 60%;
+}
+
+.section-3 .quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.section-3 .quote .author {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: end;
+}
