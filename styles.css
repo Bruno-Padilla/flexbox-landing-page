@@ -193,3 +193,13 @@ body {
     padding: 8px 30px;
     margin: 10px 0;
 }
+
+/* = = = Footer = = = */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 0;
+}
